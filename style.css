@@ -2,3 +2,37 @@
     color: black;
     font-weight: 500;
 }
+.video-thumbnail {
+    position: relative;
+    overflow: hidden;
+}
+
+.video-thumbnail img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.2s ease-in-out;
+}
+
+.video-thumbnail:hover img {
+    transform: scale(1.1);
+}
+
+.btn-play {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: none;
+    background-color: transparent;
+    color: #fff;
+    font-size: 36px;
+}
+
+.youtube-icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #f00; /* Red color */
+    font-size: 48px;
+}
